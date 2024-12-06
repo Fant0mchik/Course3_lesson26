@@ -1,5 +1,7 @@
 using namespace std;
 #include <iostream>
+#include <vector>
+#include <string>
 
 class point {
     int x;
@@ -13,5 +15,9 @@ public:
 
 int main()
 {
-    
+    vector<point> figure1;
+    figure1.push_back({ 2,6 });
+    figure1.push_back({ 5,8 });
+    figure1.push_back({ -1,2 });
+    figure1.push_back({ 2,-6 });
 }
