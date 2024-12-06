@@ -13,6 +13,17 @@ public:
     }
 };
 
+class figure {
+    point p1;
+    point p2;
+    point p3;
+    point p4;
+public:
+    virtual void print() = 0;
+};
+
+
+
 int main()
 {
     vector<point> figure1;
